@@ -48,13 +48,10 @@ h6 {
 #banner {
   height: 150px;
   display: flex;
-flex-direction: column;
-object-fit: cover;
+  flex-direction: column;
+  object-fit: cover;
   width: 100%;
-  
 }
-
-
 
 /*! tablets !*/
 @media screen and (min-width: 576px) {
