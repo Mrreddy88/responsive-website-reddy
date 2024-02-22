@@ -45,12 +45,12 @@ h6 {
   display: block;
   margin: 3px;
 }
-#banner {
-  height: 150px;
+
+#about{
   display: flex;
-  flex-direction: column;
-  object-fit: cover;
-  width: 100%;
+  flex-direction: row;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 /*! tablets !*/
