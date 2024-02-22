@@ -81,7 +81,33 @@ a:focus {
   margin: 3px;
   height: 200px;
 }
-
+#jobs {
+  max-width: 500px;
+  padding-right: 8px;
+  font-size: 1rem;
+  margin: 0 auto;
+}
+#jobs-list1 {
+  display: block;
+}
+#jobs-table {
+  display: none;
+}
+.job {
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 8px;
+}
+.job-title {
+  font-size: 1.25rem;
+  color: #222222;
+  font-weight: 500;
+}
+.job-detail {
+  color: #555555;
+  margin-top: 2px;
+}
 /*! tablets !*/
 @media screen and (min-width: 576px) {
   html {
@@ -103,6 +129,12 @@ a:focus {
     height: 220px;
     width: 80%;
     justify-content: center;
+  }
+  #jobs-list1 {
+    display: block;
+  }
+  #jobs-table {
+    display: none;
   }
 }
 
@@ -141,6 +173,7 @@ a:focus {
     height: 240px;
     width: 100%;
   }
+
   #job-oppurtunities {
     text-align: center;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -148,12 +181,18 @@ a:focus {
   }
 
   #jobs {
-    display: flex;
-    max-width: 800px;
+    min-width: 800px;
     padding-right: 8px;
     font-size: 1rem;
     margin: 0 auto;
   }
+  #jobs-list1 {
+    display: none;
+  }
+  #jobs-table {
+    display: table;
+  }
+
   #jobs-table {
     width: 100%;
     border: 1px solid gray;
