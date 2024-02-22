@@ -108,6 +108,65 @@ a:focus {
   color: #555555;
   margin-top: 2px;
 }
+#application {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 3px;
+}
+#application-form label {
+  font-weight: 600;
+}
+.form-group input,
+select,
+textarea {
+  width: 90%;
+  padding: 6px;
+  font-size: 1.24;
+  margin-top: 4px;
+  border: solid 1px grey;
+  border-radius: 3px;
+}
+
+.form-group {
+  margin: 16px 0;
+}
+.form-group textarea {
+  width: 80%;
+  font-family: "roboto", sans-serif;
+}
+.form-group input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
+
+.form-group input[type="submit"] {
+  padding: 16px;
+  color: white;
+  background-color: #0ea5e9;
+  font-weight: 500;
+  cursor: pointer;
+}
+#footer {
+  background-color: #ecfeff;
+  padding: 8px;
+  margin-top: 62px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+#footer-links {
+  list-style: none;
+  padding-left: 0;
+}
+#footer-links li {
+  margin: 4px 16px;
+}
+#copyright {
+  color: #3f3f46;
+}
 /*! tablets !*/
 @media screen and (min-width: 576px) {
   html {
@@ -135,6 +194,16 @@ a:focus {
   }
   #jobs-table {
     display: none;
+  }
+  .form-group input,
+  select,
+  textarea {
+    width: auto;
+  }
+  #footer-links li{
+    display: inline;
+
+    
   }
 }
 
@@ -211,6 +280,9 @@ a:focus {
   #jobs tr:nth-child(odd) {
     background-color: ghostwhite;
   }
+  #application {
+    max-width: 800px;
+  }
 }
 
 /*
@@ -249,59 +321,5 @@ a:hover,a:focus{
   width: 100%;
   border-radius: 12px;
 }
-#footer {
-  background-color: #ECFEFF;
-  padding: 8px;
-  margin-top: 62px;
-  text-align: center;
-}
-#application{
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 8px;
-}
-h2{
-  text-align: center;
-}
 
-#application-form label{
-  font-weight: 600;
-
-}
-
-.form-group{
-  margin: 16px 0 ;
-}
-.form-group textarea{
-  width: 80%;
-  font-family: 'roboto',sans-serif;
-}
-.form-group input[type="checkbox"]{
-  width: 18px;
-  height: 18px;
-}
-
-#application-form input,select,textarea{
-padding: 6px;
-font-size: 1.24;
-margin-top: 4px; 
-border: solid 1px grey;
-border-radius: 3px;
-}
-#footer-links {
-  list-style: none;
-}
-#footer-links li {
-  display: inline;
-  margin: 0 16px;
-}
-#copyright{
-  color: #3F3F46;
-}
-.form-group input[type="submit"]{
-   padding: 16px;
-   color: white;
-   background-color:#0EA5E9 ;
-   font-weight: 500;
-   cursor: pointer;
-} */
+ */
