@@ -82,6 +82,7 @@ a:focus {
   height: 200px;
 }
 
+
 /*! tablets !*/
 @media screen and (min-width: 576px) {
   html {
@@ -141,46 +142,39 @@ a:focus {
     height: 240px;
     width: 100%;
   }
-}
-
-/* Large devices (desktops) */
-@media screen and (min-width: 992px) {
-  html {
-    font-size: 20px;
+  #job-oppurtunities {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   }
-  #logo {
-    display: none;
-  }
-  #logo-with-text {
-    display: block;
-  }
-  #banner {
-    height: 280px;
-  }
-  h1 {
-    margin: 20px auto;
-    font-size: 35px;
-  }
-  #about {
+  #jobs {
     display: flex;
-    max-width: 750px;
+    max-width: 1200px;
     padding-right: 8px;
-    font-size: 1rem;
+    font-size: 1.25rem;
     margin: 0 auto;
   }
-
-  #description {
-    width:50%;
-    padding-right: 8px;
-    padding-left: 6px;
-    margin: 3px;
-  }
-  #
-  #team-image {
-    height: 240px;
+  #jobs-table {
     width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
   }
+  .jobs-header-row th {
+    border: 2px solid gray;
+    text-align: center;
+    padding: 8px;
+    background-color: aliceblue;
+  }
+  .jobs-data-row td {
+    border: 2px solid grey;
+    padding: 8px;
+  }
+  #jobs tr:nth-child(odd) {
+    background-color: ghostwhite;
+  }
+  
 }
+
+
 
 /*
 }
@@ -217,35 +211,6 @@ a:hover,a:focus{
 #team-image {
   width: 100%;
   border-radius: 12px;
-}
-#job-oppurtunities {
-  text-align: center;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-}
-#jobs {
-  display: flex;
-  max-width: 1200px;
-  padding-right: 8px;
-  font-size: 1.25rem;
-  margin: 0 auto;
-}
-#jobs-table {
-  width: 100%;
-  border: 1px solid gray;
-  border-collapse: collapse;
-}
-.jobs-header-row th {
-  border: 2px solid gray;
-  text-align: center;
-  padding: 8px;
-  background-color: aliceblue;
-}
-.jobs-data-row td {
-  border: 2px solid grey;
-  padding: 8px;
-}
-#jobs tr:nth-child(odd) {
-  background-color: ghostwhite;
 }
 #footer {
   background-color: #ECFEFF;
